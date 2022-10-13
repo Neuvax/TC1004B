@@ -16,7 +16,7 @@ int main(){
     signal(12, terminarWhile);
     signal(2, hola);
     int cond = 1;
-    while(cond == 1){
+    while(cond == v1){
         printf("trabajando\n");
         sleep(1);
     }
